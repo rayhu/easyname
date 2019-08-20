@@ -7,13 +7,13 @@ var romanize    = require('romanize-names');
 root_page = 
 `
 <!DOCTYPE html>
-<html>
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1" /></head>
 <body>
 <h2>Easyname api let you pronounce Chinese name easily</h2>
 <p>Usage: to greet 郑晓舟. 
 <p>Chinese name: <input type="text" id="fname" oninput="update_encode()" value="郑晓舟">
 <p>Romanized name: <input type=text id="romanized_text"></input>
-<p>Encoded name: <input type="text" id ="encodedname" size=50>
+<p>Encoded name: <input type="text" id ="encodedname" size=20>
 <script>
 base_url="https://easyname.hulaorui.com/name/"
 update_encode();
