@@ -13,6 +13,7 @@ root_page =
 <p>Usage: to greet 郑晓舟. 
 <p>Chinese name: <input type="text" id="fname" oninput="update_encode()" value="郑晓舟">
 <p>Romanized name: <input type=text id="romanized_text"></input>
+<p>Encoded name: <input type="text" id ="encodedname" size=50>
 <script>
 base_url="https://easyname.hulaorui.com/name/"
 update_encode();
@@ -29,8 +30,6 @@ function update_encode() {
   }
 }
 </script>
-<p>
-Encoded name: <input type="text" id ="encodedname" size=50>
 <p>
 <p>Try: curl -G https://easyname.hulaorui.com/name/%E9%83%91%E6%99%93%E8%88%9F
 <p>Incoming string shall be encoded for url
