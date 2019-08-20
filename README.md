@@ -2,6 +2,7 @@
 
 A rest service that helps you pronounce Chinese names (Note: incoming string shall be encoded for url)
 
+Try  [Here](https://easyname.hulaorui.com/name/%E9%83%91%E6%99%93%E8%88%9F)
 
 ```javascript
 var chinese = encodeURI('郑晓舟') // %E9%83%91%E6%99%93%E8%88%9F
