@@ -1,7 +1,6 @@
 # easyname
 
-Rest Service help you pronounce Chinese names
-Note: incoming string shall be encoded for url
+Rest Service help you pronounce Chinese names (Note: incoming string shall be encoded for url)
 
 
 ```javascript
