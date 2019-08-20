@@ -1,0 +1,29 @@
+{
+  "name": "easyname",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "romanize-names": "git+https://github.com/rayhu/romanize-names.git",
+    "routes": "^2.1.0",
+    "system": "^2.0.1"
+  },
+  "description": "Rest Service help you pronounce Chinese names",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rayhu/easyname.git"
+  },
+  "author": "Ray Hu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rayhu/easyname/issues"
+  },
+  "homepage": "https://github.com/rayhu/easyname#readme"
+}
