@@ -9,11 +9,10 @@ root_page =
 <!DOCTYPE html>
 <html><head><meta name="viewport" content="width=device-width, initial-scale=1" /></head>
 <body>
-<h2>Easyname api let you pronounce Chinese name easily</h2>
+<h2>Easyname helps you pronounce Chinese names</h2>
 <p>Usage: to greet 郑晓舟. 
 <p>Chinese name: <input type="text" id="fname" oninput="update_encode()" value="郑晓舟">
 <p>Romanized name: <input type=text id="romanized_text"></input>
-<p>Encoded name: <input type="text" id ="encodedname" size=20>
 <script>
 base_url="https://easyname.hulaorui.com/name/"
 update_encode();
@@ -31,10 +30,11 @@ function update_encode() {
 }
 </script>
 <p>
-<p>Try: curl -G https://easyname.hulaorui.com/name/%E9%83%91%E6%99%93%E8%88%9F
-<p>Incoming string shall be encoded for url
-<p>Javascript Sample: var chinese = encodeURI('郑晓舟')
-
+<p>Usage:
+<p>curl $host/name/:string
+<p>string shall be url encoded
+<p>Sample: var chinese = encodeURI('郑晓舟')
+<p>Encoded<input type="text" id ="encodedname" size=20>
 </body>
 </html>
 `
