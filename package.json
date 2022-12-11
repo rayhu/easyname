@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "romanize-names": "git+https://github.com/rayhu/romanize-names.git",
     "routes": "^2.1.0",
     "system": "^2.0.1"
